@@ -46,6 +46,7 @@ let isArray = orders;
 let creditCardTypeOfBlindermann = orders[2].creditCardType;
 let productQuantityOfJoannet = orders[3].productQuantity;
 let totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity;
+orders[2].creditCardType = "visa"
 
 console.log(Array.isArray(orders));
 orders.shift();
